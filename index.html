@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bocado | Comida que da gusto</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         ENCABEZADO
+    ========================== -->
+    <header class="header">
+
+    <a href="#" class="logo">
+        <span>BOCADO</span>
+    </a>
+
+    <nav class="nav">
+
+        <a href="#menu">Menú</a>
+        <a href="#como-pedir">Cómo pedir</a>
+        <a href="#horarios">Horarios</a>
+
+    </nav>
+
+    <div class="header-acciones">
+
+        <a
+            href="https://wa.me/5491157493977"
+            target="_blank"
+            class="btn-header-whatsapp">
+            WhatsApp
+        </a>
+
+        <button class="btn-carrito" id="abrirCarrito">
+            🛒
+            <span>Carrito</span>
+            <strong id="contadorCarrito">0</strong>
+        </button>
+
+    </div>
+
+</header>
+
+        
+
+        
+
+        
+            
+            
+            
+        
+
+    
+
+
+    <!-- =========================
+         PRESENTACIÓN
+    ========================== -->
+    <main>
+
+       <section class="hero">
+
+    <div class="hero-contenido">
+
+        <span class="hero-etiqueta">
+            BOCADO · DELIVERY
+        </span>
+
+        <h1>
+            Comida que
+            <span>da gusto.</span>
+        </h1>
+
+        <p>
+            Hamburguesas, lomitos, milanesas, papas y postres
+            preparados para disfrutar donde quieras.
+        </p>
+
+        <div class="hero-botones">
+
+            <a href="#menu" class="btn-principal">
+                Ver menú
+            </a>
+
+            <a
+                href="https://wa.me/5491157493977"
+                target="_blank"
+                class="btn-secundario">
+                Pedir por WhatsApp
+            </a>
+
+        </div>
+
+        <div class="hero-info">
+
+            <div>
+                <strong>🍔</strong>
+                <span>Hecho al momento</span>
+            </div>
+
+            <div>
+                <strong>🛵</strong>
+                <span>Delivery</span>
+            </div>
+
+            <div>
+                <strong>💬</strong>
+                <span>Pedido fácil</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-decoracion">
+
+        <div class="hero-circulo"></div>
+
+        <div class="hero-texto-vertical">
+            BOCADO
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- =========================
+             MENÚ
+        ========================== -->
+        <section class="menu" id="menu">
+
+    <div class="seccion-titulo">
+
+    <span>MENÚ BOCADO</span>
+
+    <h2>
+        Elegí tu favorito
+    </h2>
+
+    <p>
+        Preparado para disfrutar.
+    </p>
+
+</div>
+
+
+<!-- CATEGORÍAS DEL MENÚ -->
+<div class="categorias-menu">
+
+    <button class="categoria-activa">
+        Todos
+    </button>
+
+    <button>
+        🍔 Hamburguesas
+    </button>
+
+    <button>
+        🥪 Sándwiches
+    </button>
+
+    <button>
+        🥩 Lomitos
+    </button>
+
+    <button>
+        🍟 Acompañamientos
+    </button>
+
+    <button>
+        🍰 Postres
+    </button>
+
+</div>
+
+
+            <div class="productos">
+
+                <!-- HAMBURGUESA -->
+                <article class="producto">
+
+                    <div class="producto-imagen">
+                        🍔
+                    </div>
+
+                    <div class="producto-info">
+
+                        <span class="producto-categoria">
+                            Hamburguesas
+                        </span>
+
+                        <h3>
+                            Hamburguesa Bocado
+                        </h3>
+
+                        <p>
+                            Una hamburguesa completa,
+                            sabrosa y preparada al momento.
+                        </p>
+
+                        <div class="producto-abajo">
+
+                            <strong class="precio">
+                                $15.000
+                            </strong>
+
+                            <button
+                                class="btn-agregar"
+                                data-nombre="Hamburguesa Bocado"
+                                data-precio="15000">
+                                Agregar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SÁNDWICH -->
+                <article class="producto">
+
+                    <div class="producto-imagen">
+                        🥪
+                    </div>
+
+                    <div class="producto-info">
+
+                        <span class="producto-categoria">
+                            Sándwiches
+                        </span>
+
+                        <h3>
+                            Sándwich de Milanesa
+                        </h3>
+
+                        <p>
+                            Milanesa con ingredientes frescos
+                            y mucho sabor.
+                        </p>
+
+                        <div class="producto-abajo">
+
+                            <strong class="precio">
+                                $14.000
+                            </strong>
+
+                            <button
+                                class="btn-agregar"
+                                data-nombre="Sándwich de Milanesa"
+                                data-precio="14000">
+                                Agregar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- LOMITO -->
+                <article class="producto">
+
+                    <div class="producto-imagen">
+                        🥩
+                    </div>
+
+                    <div class="producto-info">
+
+                        <span class="producto-categoria">
+                            Lomitos
+                        </span>
+
+                        <h3>
+                            Lomito Completo
+                        </h3>
+
+                        <p>
+                            Un lomito abundante y lleno
+                            de sabor.
+                        </p>
+
+                        <div class="producto-abajo">
+
+                            <strong class="precio">
+                                $16.000
+                            </strong>
+
+                            <button
+                                class="btn-agregar"
+                                data-nombre="Lomito Completo"
+                                data-precio="16000">
+                                Agregar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PAPAS -->
+                <article class="producto">
+
+                    <div class="producto-imagen">
+                        🍟
+                    </div>
+
+                    <div class="producto-info">
+
+                        <span class="producto-categoria">
+                            Acompañamientos
+                        </span>
+
+                        <h3>
+                            Papas Cheddar
+                        </h3>
+
+                        <p>
+                            Papas crocantes acompañadas
+                            con cheddar.
+                        </p>
+
+                        <div class="producto-abajo">
+
+                            <strong class="precio">
+                                $8.000
+                            </strong>
+
+                            <button
+                                class="btn-agregar"
+                                data-nombre="Papas Cheddar"
+                                data-precio="8000">
+                                Agregar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+</article>
+
+
+                <!-- CHOCOTORTA -->
+                <article class="producto">
+
+                    <div class="producto-imagen">
+                        🍰
+                    </div>
+
+                    <div class="producto-info">
+
+                        <span class="producto-categoria">
+                            Postres
+                        </span>
+
+                        <h3>
+                            Chocotorta
+                        </h3>
+
+                        <p>
+                            Clásica chocotorta cremosa,
+                            dulce y perfecta para cerrar tu pedido.
+                        </p>
+
+                        <div class="producto-abajo">
+
+                            <strong class="precio">
+                                $7.599
+                            </strong>
+
+                            <button
+                                class="btn-agregar"
+                                data-nombre="Chocotorta"
+                                data-precio="7599">
+                                Agregar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- YOGUR GRIEGO -->
+                <article class="producto">
+
+                    <div class="producto-imagen">
+                        🍓
+                    </div>
+
+                    <div class="producto-info">
+
+                        <span class="producto-categoria">
+                            Postres
+                        </span>
+
+                        <h3>
+                            Yogur Griego con Banana y Frutilla
+                        </h3>
+
+                        <p>
+                            Yogur griego con banana y frutilla,
+                            fresco y delicioso.
+                        </p>
+
+                        <div class="producto-abajo">
+
+                            <strong class="precio">
+                                $9.900
+                            </strong>
+
+                            <button
+                                class="btn-agregar"
+                                data-nombre="Yogur Griego con Banana y Frutilla"
+                                data-precio="9900">
+                                Agregar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+            </div>
+
+        </section>
+<!-- =========================
+     CÓMO PEDIR
+========================= -->
+
+<section class="como-pedir" id="como-pedir">
+
+    <div class="seccion-titulo">
+
+        <span>ASÍ DE FÁCIL</span>
+
+        <h2>
+            ¿Cómo pedir?
+        </h2>
+
+        <p>
+            Hacé tu pedido en pocos pasos.
+        </p>
+
+    </div>
+
+
+    <div class="pasos-pedido">
+
+        <!-- PASO 1 -->
+        <article class="paso-pedido">
+
+            <span class="paso-numero">
+                01
+            </span>
+
+            <div class="paso-icono">
+                🍔
+            </div>
+
+            <h3>
+                Elegí
+            </h3>
+
+            <p>
+                Explorá nuestro menú y elegí
+                lo que más te guste.
+            </p>
+
+        </article>
+
+
+        <!-- PASO 2 -->
+        <article class="paso-pedido">
+
+            <span class="paso-numero">
+                02
+            </span>
+
+            <div class="paso-icono">
+                🛒
+            </div>
+
+            <h3>
+                Agregá
+            </h3>
+
+            <p>
+                Agregá tus productos al carrito
+                y revisá tu pedido.
+            </p>
+
+        </article>
+
+
+        <!-- PASO 3 -->
+        <article class="paso-pedido">
+
+            <span class="paso-numero">
+                03
+            </span>
+
+            <div class="paso-icono">
+                💬
+            </div>
+
+            <h3>
+                Confirmá
+            </h3>
+
+            <p>
+                Enviá tu pedido directamente
+                por WhatsApp.
+            </p>
+
+        </article>
+
+
+        <!-- PASO 4 -->
+        <article class="paso-pedido">
+
+            <span class="paso-numero">
+                04
+            </span>
+
+            <div class="paso-icono">
+                🛵
+            </div>
+
+            <h3>
+                Recibí
+            </h3>
+
+            <p>
+                Coordinamos tu pedido y lo
+                recibís donde estés.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+<!-- =========================
+     HORARIOS
+========================= -->
+
+<section class="horarios" id="horarios">
+
+    <div class="seccion-titulo">
+
+        <span>BOCADO</span>
+
+        <h2>
+            Estamos para vos.
+        </h2>
+
+        <p>
+            Consultá nuestros horarios y hacé tu pedido.
+        </p>
+
+    </div>
+
+
+    <div class="horarios-contenido">
+
+        <div class="horarios-card">
+
+            <div class="horario-icono">
+                🕐
+            </div>
+
+            <div class="horario-dias">
+
+                <div class="horario-fila">
+
+                    <span>
+                        Lunes a Viernes
+                    </span>
+
+                    <strong>
+                        15:00 — 00:00
+                    </strong>
+
+                </div>
+
+
+                <div class="horario-fila">
+
+                    <span>
+                        Sábado
+                    </span>
+
+                    <strong>
+                        12:00 — 00:00
+                    </strong>
+
+                </div>
+
+
+                <div class="horario-fila">
+
+                    <span>
+                        Domingo
+                    </span>
+
+                    <strong>
+                        11:00 — 00:00
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="horarios-accion">
+
+            <span>
+                ¿Ya sabés qué querés?
+            </span>
+
+            <h3>
+                Hacé tu pedido ahora.
+            </h3>
+
+            <a
+                href="https://wa.me/5491157493977"
+                target="_blank"
+                class="btn-principal">
+
+                Pedir por WhatsApp
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     POR QUÉ ELEGIR BOCADO
+========================= -->
+
+<section class="por-que-bocado" id="por-que-bocado">
+
+    <div class="seccion-titulo">
+
+        <span>BOCADO</span>
+
+        <h2>
+            Hecho para disfrutar.
+        </h2>
+
+        <p>
+            Todo lo que necesitás para disfrutar
+            de tu comida favorita.
+        </p>
+
+    </div>
+
+
+    <div class="beneficios-bocado">
+
+        <article class="beneficio-bocado">
+
+            <div class="beneficio-icono">
+                🍔
+            </div>
+
+            <div>
+                <h3>
+                    Preparado al momento
+                </h3>
+
+                <p>
+                    Preparamos cada pedido para que
+                    lo disfrutes recién hecho.
+                </p>
+            </div>
+
+        </article>
+
+
+        <article class="beneficio-bocado">
+
+            <div class="beneficio-icono">
+                🛵
+            </div>
+
+            <div>
+                <h3>
+                    Delivery
+                </h3>
+
+                <p>
+                    Pedí desde donde estés y coordinamos
+                    la entrega de tu pedido.
+                </p>
+            </div>
+
+        </article>
+
+
+        <article class="beneficio-bocado">
+
+            <div class="beneficio-icono">
+                💬
+            </div>
+
+            <div>
+                <h3>
+                    Pedido fácil
+                </h3>
+
+                <p>
+                    Elegí tus productos, agregalos al carrito
+                    y enviá tu pedido por WhatsApp.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="beneficio-bocado">
+
+            <div class="beneficio-icono">
+                ❤️
+            </div>
+
+            <div>
+                <h3>
+                    Hecho con ganas
+                </h3>
+
+                <p>
+                    Queremos que cada pedido sea una
+                    experiencia para disfrutar.
+                </p>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+<!-- =========================
+     ENTREGA BOCADO
+========================= -->
+
+<section class="entrega-bocado" id="entrega">
+
+    <div class="entrega-contenido">
+
+        <div class="entrega-texto">
+
+            <span>
+                BOCADO · DELIVERY
+            </span>
+
+            <h2>
+                Tu pedido,
+                <strong>donde estés.</strong>
+            </h2>
+
+            <p>
+                Preparamos tu pedido al momento y coordinamos
+                la entrega directamente con vos.
+            </p>
+
+            <a
+                href="https://wa.me/5491157493977"
+                target="_blank"
+                class="btn-principal">
+
+                Pedir por WhatsApp
+
+            </a>
+
+        </div>
+
+
+        <div class="entrega-beneficios">
+
+            <div class="entrega-item">
+
+                <div class="entrega-icono">
+                    🛵
+                </div>
+
+                <div>
+                    <h3>
+                        Delivery
+                    </h3>
+
+                    <p>
+                        Coordinamos la entrega de tu pedido.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="entrega-item">
+
+                <div class="entrega-icono">
+                    💬
+                </div>
+
+                <div>
+                    <h3>
+                        Pedido fácil
+                    </h3>
+
+                    <p>
+                        Pedí directamente por WhatsApp.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="entrega-item">
+
+                <div class="entrega-icono">
+                    📍
+                </div>
+
+                <div>
+                    <h3>
+                        Entrega coordinada
+                    </h3>
+
+                    <p>
+                        Confirmamos la zona y el horario con vos.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+    </main>
+
+
+    <!-- =========================
+         CARRITO
+    ========================== -->
+    <div
+        class="carrito-overlay"
+        id="carritoOverlay">
+
+        <aside class="carrito-panel">
+
+            <div class="carrito-header">
+
+                <div>
+                    <span>BOCADO</span>
+
+                    <h2>
+                        Tu pedido
+                    </h2>
+                </div>
+
+                <button
+                    class="btn-cerrar"
+                    id="cerrarCarrito">
+                    ×
+                </button>
+
+            </div>
+
+
+            <div
+                class="carrito-productos"
+                id="carritoProductos">
+
+                <!-- JavaScript mostrará los productos aquí -->
+
+            </div>
+
+
+            <div class="carrito-footer">
+
+                <div class="carrito-total">
+
+                    <span>
+                        Total
+                    </span>
+
+                    <strong id="carritoTotal">
+                        $0
+                    </strong>
+
+                </div>
+
+
+                <button
+                    class="btn-whatsapp"
+                    id="pedirWhatsApp">
+
+                    💬
+                    PEDIR POR WHATSAPP
+
+                </button>
+
+
+                <button
+                    class="btn-seguir"
+                    id="seguirComprando">
+
+                    Seguir comprando
+
+                </button>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+
+    <!-- =========================
+         PIE DE PÁGINA
+    ========================== -->
+    <!-- =========================
+     FOOTER BOCADO
+========================= -->
+
+<footer class="footer-bocado">
+
+    <div class="footer-contenido">
+
+        <div class="footer-marca">
+
+            <div class="footer-logo">
+                BOCADO
+            </div>
+
+            <p>
+                Comida que da gusto.
+                Preparada al momento y hecha con ganas.
+            </p>
+
+        </div>
+
+
+        <div class="footer-columna">
+
+            <h3>
+                Navegación
+            </h3>
+
+            <a href="#menu">
+                Menú
+            </a>
+
+            <a href="#como-pedir">
+                Cómo pedir
+            </a>
+
+            <a href="#horarios">
+                Horarios
+            </a>
+
+            <a href="#entrega">
+                Delivery
+            </a>
+
+        </div>
+
+
+        <div class="footer-columna">
+
+            <h3>
+                Contacto
+            </h3>
+
+            <a
+                href="https://wa.me/5491157493977"
+                target="_blank">
+
+                WhatsApp
+            </a>
+
+            <span>
+                Pedidos y consultas
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-linea"></div>
+
+
+    <div class="footer-inferior">
+
+        <span>
+            © 2026 BOCADO
+        </span>
+
+        <span>
+            Delivery · Buenos Aires
+        </span>
+
+    </div>
+
+</footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+<!-- WHATSAPP FLOTANTE -->
+
+<a
+    href="https://wa.me/5491157493977"
+    target="_blank"
+    class="whatsapp-flotante"
+    aria-label="Contactar por WhatsApp">
+
+    💬
+
+</a>
+</body>
+</html>
